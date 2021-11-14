@@ -1,6 +1,6 @@
-# Ejercicio global de HTML y CSS 
+# Ejercicio global de HTML y CSS
 
-El objetivo de este ejercicio es aprender a estructurar y maquetar una página web desde cero. Por ello nos vamos a preocupar de que la distribucción de elementos de la página esté perfecta.
+He maquetado y estructurado esta página web, ajustandola a las siguientes características:
 
 ## Qué vamos a maquetar
 
@@ -50,7 +50,3 @@ Debemos empezar a maquetar desde los elementos más exteriores hacia los más in
 Una vez hayamos maquetado la distribución de los contenedores principales en todos los anchos de pantalla, deberiamos repetir estos pasos con los contenedores que haya en elementos más internos.
 
 Una vez hayamos terminado de maquetar todos los contenedores, podremos borrar los estilos de borde y fondo que habíamos puesto para visualizar fácilmente los contenedores. Y podremos empezar a maquetar fino fino y al detalle cada elemento de la página, centrándonos en detalles como colores, tamaños de fuente, márgenes...
-
-## Do it yourself
-
-Os recomendamos a las alumnas que buquéis una página que os guste y la maquetéis siguiendo estos pasos. Si necesitáis ayuda pedírsela a las compañeras o a los profes.
