@@ -6,43 +6,67 @@ header{
   color:white;
   align-items: center;
   position:fixed;
-  height: 40px;
+  height: 70px;
   z-index: 1;
 }
-
+/*Logo left*/
+.picture-logo{
+  width:100px;
+}
 picture .logo_img{
-  width:60px;
-  margin-left:8px;
+  width:80px;
+  margin-left:20px;
 }
-.menu{
-  padding-right:20px;
-}
-.menu:hover ul, ul:hover{
-  display:block;
-}
+/*Logo right*/
 picture .profile{
   width:35px;
-}
-.list{
-  list-style-type: none;
-  display:none;
-  font-size: 0.7rem;
-  padding: 0px;
-  position:absolute;
-  width: 100px;
-  text-align: center;
-  margin: 0px 0px 0px -30px;
-  
-  
- 
+  @media (min-width:768px) {
+    display:none;
+  }}
+
+@media (min-width:768px){
+  .menu{
+  display:flex;
+  width:50%;
+  justify-content: end;
+  padding-right:15px;
+  }
+  .list{
+    display:flex;
 }
 .link{
-  margin-top:5px;
-  text-align: center;
-  background-color: black;
-  border:white 1px solid; 
-  
+  padding:6px;
 }
-.header_menu .link:hover{
-text-decoration: underline;
+.special{
+  border-right:2px solid white;
+  padding:0 5px 0 5px;
+}
+}
+
+@media all and (max-width:767px){
+  .menu{
+    padding-right:20px;
+  }
+  .list{
+    list-style-type: none;
+    display:none;
+    font-size: 0.7rem;
+    padding: 0px;
+    position:absolute;
+    width: 100px;
+    text-align: center;
+    margin: 0px 0px 0px -30px;
+  }
+  .link{
+    margin-top:5px;
+    text-align: center;
+    background-color: black;
+    border:white 1px solid; 
+    
+  }
+  .header_menu .link:hover{
+  text-decoration: underline;
+  }
+  .menu:hover ul, ul:hover{
+    display:block;}
 }
