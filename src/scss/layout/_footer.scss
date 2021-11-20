@@ -6,6 +6,8 @@
   justify-content: space-between;
   align-items: center;
   height: 100px;
+  position:fixed;
+  bottom:0;
   }
   .div-right{
       font-size: 0.5rem;
@@ -17,6 +19,7 @@
   }
   .div-right span{
   margin:5px 5px 0 0;
+  font-size: 0.8rem;
   }
   .bandera{
       width:20px;
@@ -26,10 +29,14 @@
       flex-direction: row;
       width:150px;
       flex-wrap: wrap;
+      @media (min-width:768px){
+        width:300px;
+    }
   }
   .nav_list{
       margin-left: 10px;
       padding-top:7px;
       font-size: 0.5rem;
       list-style-type: none;
+      font-size: 0.8rem;
   }
