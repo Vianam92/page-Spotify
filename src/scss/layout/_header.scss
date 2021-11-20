@@ -8,30 +8,33 @@ header{
   position:fixed;
   height: 40px;
   z-index: 1;
-}
-.logo_img{
-  width:60px;
-  margin-left:8px;
-}
-.header_menu{
-  padding-right:20px;
-}
-.header_menu:hover ul, ul:hover{
-  display:block;
-}
-.profile img{
-  width:35px;
-}
-.list{
-  list-style-type: none;
-  display:none;
-  font-size: 0.7rem;
-  padding: 0px;
-  position:absolute;
-  width: 100px;
-  text-align: left;
-  margin: 0px 0px 0px -10px;
-}
+  &--logo_img{
+    width:60px;
+    margin-left:8px;
+  }
+  &_menu{
+    padding-right:20px;
+    :hover{
+      display:block;}
+      &--profile{
+        width:35px;
+      }
+    &--list{
+      list-style-type: none;
+      display:none;
+      font-size: 0.7rem;
+      padding: 0px;
+      position:absolute;
+      width: 100px;
+      text-align: left;
+      margin: 0px 0px 0px -10px;
+      :hover{
+        display:block;
+      }
+    }
+    }
+  }
+
 .link{
   margin-top:5px;
   padding-right:3px;
