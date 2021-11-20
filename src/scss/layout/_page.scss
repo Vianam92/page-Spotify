@@ -1,7 +1,100 @@
-body {
-  padding: 2rem;
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-image: url('../images/bg-adalab.png');
-  background-color: $color-bg;
-  font-family: $font-main;
-}
+  width:100%;
+  
+  }
+  .article{
+      background-color: $color;
+      color:white;
+      height:50%;
+      width:100%;
+     
+  }
+  .section_blue{
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+      position:relative;
+      top:40px;
+  
+  }
+  .title{
+      font-size: 1.8rem;
+      font-family: $font-family;
+      text-align: center;
+      width:300px;
+      text-size-adjust: 100px;
+      padding:20px 10px 10px 10px;
+  
+  }
+  .section_blue h3{
+      font-size:1rem;
+      line-height: normal;
+      text-align: center;
+      padding-top:5px;
+      width:80%;
+  }
+  .div_green{
+      background-color: green;
+      width: 300px;
+      height:45px;
+      border-radius: 50px;
+      line-height: 45px;
+      text-align: center;
+      margin: 10px 3px;
+      opacity: 0.8;
+      max-width: 380px;
+  }
+  .div_green a{
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-family:'rubik', sans-serif
+  ;}
+  .section_blue small {
+      padding:5px;
+      font-size:0.5rem;
+  }
+  /*second section*/
+  .section_white{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width:100%;
+  }
+  .section_white h2{
+      text-align: center;
+      font-size: 1.2rem;
+      width:100%;
+      font-weight: bold;
+      padding:5px 10px 5px 10px;
+  }
+  .icon-div{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-bottom:10px;
+  }
+  .text{
+      width:150px;
+      margin-left: 20px;
+  }
+  .text p{
+      font-size: 0.7rem;
+      text-align:left;
+      margin:8px 0;
+  }
+  .text h5{
+      font-size:0.9rem;
+      width:180px;
+  }
+  .icon{
+      width: 100%;
+      max-width: 50px;
+      object-fit: cover;
+  }

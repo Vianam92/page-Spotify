@@ -1,5 +1,42 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+header{
+  background: $color-header-footer;
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  color:white;
+  align-items: center;
+  position:fixed;
+  height: 40px;
+  z-index: 1;
+}
+.logo_img{
+  width:60px;
+  margin-left:8px;
+}
+.header_menu{
+  padding-right:20px;
+}
+.header_menu:hover ul, ul:hover{
+  display:block;
+}
+.profile img{
+  width:35px;
+}
+.list{
+  list-style-type: none;
+  display:none;
+  font-size: 0.7rem;
+  padding: 0px;
+  position:absolute;
+  width: 100px;
+  text-align: left;
+  margin: 0px 0px 0px -10px;
+}
+.link{
+  margin-top:5px;
+  padding-right:3px;
+  text-align: center;
+}
+.header_menu .link:hover{
+text-decoration: underline;
 }

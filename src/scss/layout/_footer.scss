@@ -1,8 +1,35 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
-}
+.footer{
+  background-color: $color-header-footer;
+  color:white;
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  }
+  .div-right{
+      font-size: 0.5rem;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width:80px;
+      margin-right:5px;
+  }
+  .div-right span{
+  margin:5px 5px 0 0;
+  }
+  .bandera{
+      width:20px;
+  }
+  .nav-left{
+      display:flex;
+      flex-direction: row;
+      width:150px;
+      flex-wrap: wrap;
+  }
+  .nav_list{
+      margin-left: 10px;
+      padding-top:7px;
+      font-size: 0.5rem;
+      list-style-type: none;
+  }
