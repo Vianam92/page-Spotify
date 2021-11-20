@@ -7,19 +7,16 @@ header{
   align-items: center;
   position:fixed;
   height: 40px;
-  z-index: 1;
-  &--logo_img{
-    width:60px;
-    margin-left:8px;
-  }
-  &_menu{
-    padding-right:20px;
-    :hover{
-      display:block;}
-      &--profile{
-        width:35px;
-      }
-    &--list{
+  z-index: 1;}
+
+  .menu, ul:hover{
+    padding-right:20px;}
+
+  .menu:hover ul, ul:hover{
+  display:block;
+}
+  
+  .list{
       list-style-type: none;
       display:none;
       font-size: 0.7rem;
@@ -27,19 +24,25 @@ header{
       position:absolute;
       width: 100px;
       text-align: left;
-      margin: 0px 0px 0px -10px;
-      :hover{
-        display:block;
-      }
-    }
-    }
-  }
+      margin: 0px 0px 0px -10px;}
+
+  .list:hover{
+        display:block;}
+
 
 .link{
   margin-top:5px;
   padding-right:3px;
   text-align: center;
 }
-.header_menu .link:hover{
+.menu .link:hover{
 text-decoration: underline;
+}
+
+picture .logo_img{
+  width:60px;
+  margin-left:8px;
+}
+picture .profile{
+  width:35px;
 }
