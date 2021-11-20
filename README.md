@@ -1,6 +1,6 @@
 # Ejercicio global de HTML y CSS
 
-He maquetado y estructurado esta página web, ajustandola a las siguientes características:
+He maquetado y estructurado esta página web de forma responsive, usando media queries adaptable a mobile, tablet and desktop y sass.
 
 ## Qué vamos a maquetar
 
