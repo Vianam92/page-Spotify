@@ -26,6 +26,14 @@
             padding-top:30px;
         }
     }
+    &-white{
+        padding:30px;
+        &--h2{
+            font-size: 2rem;
+            text-align: center;
+            padding-bottom:40px;
+        }
+    }
 }
 
 .boton{
@@ -50,4 +58,17 @@
       font-family:'rubik', sans-serif
   ;}
 
-
+  .icon-div2{
+      width:100%;
+      display:flex;
+      align-items: center;
+      padding-left:20px;
+      &__icon{
+          width:70px;
+          height: 70px;
+      }
+      &__text{
+          width:250px;
+          margin-left:20px;
+      }
+  }
