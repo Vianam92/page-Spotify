@@ -1,0 +1,67 @@
+.hero{
+    height:50vh;
+    background-color:$color;
+    &-contain{
+display:none;
+width:100%;
+padding-top:60px;
+height: 50vh;
+
+@media (min-width:768px){
+    display:flex;
+    justify-content: right;
+}
+@media (min-width:768px){ 
+&--img{
+width:450px;
+object-fit: contain;}
+}
+    }
+    &-article{
+       display:flex;
+       flex-direction: column;
+       padding-top:150px;
+       padding-left:20px;
+       padding-right:20px;
+       color:white;
+       @media (min-width:768px){
+           position:absolute;
+           top:0;
+           padding-top:80px;
+       }
+       &--title{
+           font-size: 2.8rem;
+           margin-bottom:20px;
+           @media (min-width:768px){
+               line-height: 1.25;
+           }
+       }
+       &--h2{
+           font-size: 1.5rem;
+           margin-bottom: 20px;
+        @media (min-width:768px){
+            line-height: 1.25;
+        }
+       }
+       &_green{
+           width:100%;
+           height:70px;
+       }
+    }
+}
+.boton{
+    background-color:$color-btn;
+    width:100%;
+    border-radius: 25px;
+    height:40px;
+    border: 1px solid $color-btn;
+    margin-top:5px;
+    @media (min-width:768px){
+        width:200px;
+    }
+}
+.boton a{
+    color:white;
+font-size:1.2rem;
+padding:3px;
+}

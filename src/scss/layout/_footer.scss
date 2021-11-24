@@ -5,7 +5,7 @@
   display:flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 150px;
   position:relative;
   top:90px;
   }
@@ -14,12 +14,16 @@
       display:flex;
       flex-direction: row;
       flex-wrap: wrap;
-      width:80px;
+      width:120px;
       margin-right:5px;
+      &-spain{
+          width:60px;
+      }
   }
-  .div-right span{
-  margin:5px 5px 0 0;
+  span{
   font-size: 0.8rem;
+  width:90px;
+  margin-top:10px;
   }
   .bandera{
       width:20px;

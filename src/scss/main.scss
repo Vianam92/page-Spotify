@@ -1,19 +1,12 @@
-
-/*@import 'components/code';
-@import 'components/links';
-
-
-
-@import 'pages/index';*/
-
 @import 'core/reset';
 @import 'core/variables';
+
+
 @import 'layout/header';
-@import 'layout/page';
+@import 'pages/index';
+@import 'components/hero';
+@import 'layout/white';
 @import 'layout/footer';
 
-body{
-    width:100%;
-    height:100%;
-}
+
 
